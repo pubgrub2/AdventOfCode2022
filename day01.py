@@ -1,4 +1,4 @@
-file = open("day01in.txt", "r")
+file = open("day01.txt", "r")
 input = file.read().splitlines()
 output = []
 total = 0
