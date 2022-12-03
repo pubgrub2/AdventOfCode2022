@@ -9,7 +9,6 @@ def upper_or_lower_output(letter):
 	else: print("error processing upper or lower")
 
 for i in range(0, len(input) - 2, 3):
-	print(i)
 	string1, string2, string3 = set(input[i]), set(input[i + 1]), set(input[i + 2])
 	letter = string1.intersection(string2).intersection(string3).pop()
 	output += upper_or_lower_output(letter)
